@@ -17,7 +17,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <groupId>com.companyname.projectgroup</groupId>
   <artifactId>project</artifactId>
   <version>2.5</version> 
-  <scope>test</scope>
+  <scope>runtime</scope>
 </dependency> 
 </dependencies>  
 <executions>
