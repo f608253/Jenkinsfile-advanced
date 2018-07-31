@@ -9,12 +9,12 @@ pipeline {
                  steps {
                       sh 'echo $(PATH)'
                       sh 'echo $(M2_HOME)'
-                      sh  'mvn clean compile'
+                      sh  'mvn -X clean compile'
            }
       }
             stage ('Testing stage') {
                 steps {
-                sh 'mvn test'
+                sh 'mvn -X test'
            }
       }
             stage ('Deployment stage') {
